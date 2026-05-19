@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { ArrowRight, ArrowUpRight, PlayCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import heroVideo from "../../../public/hero-bg.mp4.asset.json";
+import hero from "@/assets/hero-bg.mp4";
+import { Link } from "react-router-dom";
 
 const stats = [
-  { v: "25+", l: "Projects delivered" },
-  { v: "3+", l: "Countries served" },
-  { v: "10+", l: "Industries covered" },
+  { v: "120+", l: "Projects delivered" },
+  { v: "30+", l: "Countries served" },
+  { v: "12", l: "Industries covered" },
   { v: "98%", l: "Client retention" },
 ];
 
@@ -18,7 +20,7 @@ export const Hero = () => {
     >
       {/* Full-bleed background video */}
       <video
-        src={heroVideo.url}
+        src={hero}
         poster={heroBg}
         autoPlay
         muted
