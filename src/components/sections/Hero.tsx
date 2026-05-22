@@ -6,9 +6,9 @@ import hero from "@/assets/hero-bg.mp4";
 import { Link } from "react-router-dom";
 
 const stats = [
-  { v: "120+", l: "Projects delivered" },
-  { v: "30+", l: "Countries served" },
-  { v: "12", l: "Industries covered" },
+  { v: "25+", l: "Projects delivered" },
+  { v: "3+", l: "Countries served" },
+  { v: "10+", l: "Industries covered" },
   { v: "98%", l: "Client retention" },
 ];
 
@@ -62,11 +62,11 @@ export const Hero = () => {
         <h1 className="heading-display reveal reveal-delay-1 mt-8 max-w-5xl text-white">
           Engineering the systems that{" "}
           <span className="italic font-light text-white/90">scale</span> the
-          world&apos;s most ambitious companies.
+          world&apos;s most ambitious businesses.
         </h1>
 
         <p className="reveal reveal-delay-2 mt-8 max-w-2xl text-base leading-relaxed text-white/80 md:text-lg">
-          Growthix unites strategy, design, technology and marketing under one
+          Growthix unites strategy, design, technology, marketing & consulting under one
           enterprise standard — built for organizations ready to operate at
           global scale.
         </p>
