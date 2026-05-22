@@ -44,8 +44,8 @@ const App = () => (
               <Route path="/projects" element={<Projects />} />
               <Route path="/insights" element={<Insights />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/privacy" element={<Privacy />} />
-              <Route path="/terms" element={<Terms />} />
+              <Route path="/privacy-policy" element={<Privacy />} />
+              <Route path="/terms-of-service" element={<Terms />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </SiteLayout>
@@ -103,8 +103,8 @@ export default App;
 //             <Route path="/projects" element={<Projects />} />
 //             <Route path="/insights" element={<Insights />} />
 //             <Route path="/contact" element={<Contact />} />
-//             <Route path="/privacy" element={<Privacy />} />
-//             <Route path="/terms" element={<Terms />} />
+//             <Route path="/privacy-policy" element={<Privacy />} />
+//             <Route path="/terms-of-service" element={<Terms />} />
 //             <Route path="*" element={<NotFound />} />
 //           </Routes>
 //         </SiteLayout>
