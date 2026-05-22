@@ -102,7 +102,7 @@ export const Footer = () => {
           <p>© {new Date().getFullYear()} Growthix. All rights reserved.</p>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             <a href="/privacy-policy" className="hover:text-foreground">Privacy</a>
-            <a href="/terms-of-service" className="hover:text-foreground">Terms</a>
+            <a href="/terms" className="hover:text-foreground">Terms</a>
             <a href="#" className="hover:text-foreground">Cookies</a>
             <a href="#" className="hover:text-foreground">Accessibility</a>
           </div>

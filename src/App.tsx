@@ -15,8 +15,8 @@ import Projects from "./pages/Projects";
 import Insights from "./pages/Insights";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -45,7 +45,7 @@ const App = () => (
               <Route path="/insights" element={<Insights />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/privacy-policy" element={<Privacy />} />
-              <Route path="/terms-of-service" element={<Terms />} />
+              <Route path="/terms" element={<Terms />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </SiteLayout>
